@@ -153,12 +153,12 @@ async def _setup_knowledge_base() -> Knowledge | None:
         await knowledge_instance.add_content_async(name="Agno Documentation", url="https://docs.agno.com/llms-full.txt")
         print("✅ Documentation loaded successfully")
 
-        return knowledge_instance
-
     except Exception as e:
         print(f"⚠️  Failed to initialize vector database: {e}")
         print("⚠️  Agent will answer questions without document retrieval.")
         return None
+    else:
+        return knowledge_instance
 
 
 def _setup_tools(mem0_api_key: str) -> list:
