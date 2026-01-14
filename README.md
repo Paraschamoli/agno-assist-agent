@@ -432,5 +432,4 @@ MIT License - see LICENSE file for details.
 
 <p align="center">
   <em>Note: This agent provides documentation assistance for the Agno framework. It indexes content from docs.agno.com and provides answers based on that documentation. Always verify critical implementation details against official sources.</em>
-</p>#   a g n o - a s s i s t - a g e n t  
- 
+</p>
